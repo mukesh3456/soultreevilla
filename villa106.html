@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <title>Villa Soul tree</title>
+    <link rel="stylesheet" href="maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+
+
+    <style>
+        .footerimg {
+            margin-top: 0px;
+        }
+        
+        .carousel-control-prev {
+            left: 75px !important;
+        }
+        
+        .carousel-control-next {
+            right: 75px !important;
+        }
+        
+        @media only screen and (min-width: 0px) and (max-width: 320px) {
+            .carousel-control-prev {
+                left: 10px !important;
+            }
+            .carousel-control-next {
+                right: 10px !important;
+            }
+            ul li {
+                font-size: 15px !important;
+                padding: 5px !important;
+                letter-spacing: 1px !important;
+                line-height: 20px !important;
+            }
+            .line {
+                display: none;
+            }
+        }
+        
+        @media only screen and (min-width: 320px) and (max-width: 576px) {
+            .carousel-control-prev {
+                left: 135px !important;
+            }
+            .carousel-control-next {
+                right: 135px !important;
+            }
+            ul li {
+                font-size: 15px !important;
+                letter-spacing: 1px !important;
+            }
+            .line {
+                display: none;
+            }
+        }
+        
+        @media only screen and (min-width: 576px) and (max-width: 768px) {
+            .carousel-control-prev {
+                left: 150px !important;
+            }
+            .carousel-control-next {
+                right: 150px !important;
+            }
+            .line {
+                display: none;
+            }
+        }
+        
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+        
+        .notelist li {
+            font-family: 'Lato', sanserif;
+            font-size: 17px;
+            color: #212529;
+            text-align: justify;
+            padding: 10px;
+            letter-spacing: 2px;
+            line-height: 25px;
+        }
+        
+        .cfb {
+            margin-top: 100px;
+        }
+        
+        .line {
+            background-image: url('images/roomline.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100%;
+            height: 32px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+             .float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    /*top: 30px;*/
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+  font-size:30px;
+    /*box-shadow: 2px 2px 3px #999;*/
+  z-index:100;
+}
+
+.my-float{
+    margin-top:16px;
+}
+
+
+    </style>
+</head>
+
+<body>
+
+    <a href="https://wa.me/+919175186783" class="float" target="_blank">
+      <i class="fab fa-whatsapp my-float"></i>
+    </a>
+
+    <!--navbar-->
+    <!-- <div class="container-fluid texture">
+        <img src="images/flower.png" class="flower-top" alt="">
+        <img src="images/flower.png" class="flower-top-right" alt="">
+
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" class="img-fluid logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+<span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+</button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link normal" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link normal" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link normal" href="villa49.html">Villa 49</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link normal" href="villa50.html">Villa 50</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link normal" href="villa111.html">Villa 111</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link normal" href="villa106.html">Villa 106</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link normal" href="dining.html">Dining</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link normal" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link normal" href="groupevents.html">Group Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link normal" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="rightlinks">
+                        <ul class="sideLinks">
+
+                            <li>
+                                <a href="https://www.instagram.com/soultreevilla/" class="fa fa-instagram l2"></a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.facebook.com/soultreevillas/" class="fa fa-facebook l2"></a>
+                            </li>
+
+                            <li>
+                                <a href="https://wa.me/+919175186783" class="fa fa-whatsapp l2"></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div> -->
+    <div class="container-fluid texture">
+        <img src="images/flower.png" class="flower-top" alt="">
+        <img src="images/flower.png" class="flower-top-right" alt="">
+
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.png" class="img-fluid logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+  <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+  </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link normal" href="index.html">Home</a>
+                        </li>
+
+                        <!-- <li class="nav-item">
+	  <a class="nav-link normal" href="offers.html">offers</a>
+	</li> -->
+
+                        <li class="nav-item active">
+                            <a class="nav-link normal" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link normal" href="villa49.html">Villa 49</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link normal" href="villa50.html">Villa 50</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link normal" href="villa111.html">Villa 111</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link normal" href="villa106.html">Villa 106</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link normal" href="dining.html">Dining</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link normal" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link normal" href="groupevents.html">Group Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link normal" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="rightlinks">
+                        <ul class="sideLinks">
+
+                            <li>
+                                <a href="https://www.instagram.com/soultreevilla/" class="fa fa-instagram l2"></a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.facebook.com/soultreevillas/" class="fa fa-facebook l2"></a>
+                            </li>
+
+                            <li>
+                                <a href="https://wa.me/+919175186783" class="fa fa-whatsapp l2"></a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <!--aboutus-->
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-xs-12 col-sm-12 aboutbgimg" style="background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url('images/villa-106/img-1.jpg')">
+                <!-- <h1 class="aboutheading">VILLA 50</h1> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="room-content">
+        <h1 class="title">Villa 106 in Lavasa</h1>
+        <p class="para">We offer 4 luxurious bedrooms in this well furnished and immaculately maintained villa. We have options of additional villas in close proximity to accommodate larger groups.</p>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 stepinunderline">
+                    <div class="upper">
+                        <h1 class="stepinheading">STEPPING IN</h1>
+                        <p class="stepintext">
+                            We have recently added this villa to our collection for those looking for a more economical stay but with the Soul Tree Villa standards of service and exclusivity.  This 4 bedroom villa was is ideal for people looking to escape the city and spend time with nature, while still enjoying the comforts of home. 
+
+                            The villa features beautifully landscaped gardens all around, an open air bar under a covered gazebo, outdoor seating and barbeque arrangements. With windows on all sides, sunshine pours into every corner of the villa and you will surely feel a sense of rejuvenation after your stay here.</p>
+
+                    </div>
+
+                    <!-- <div class="lower">
+                        <div class="container text-center white">
+                            <div class="row bed">
+                                <div class="col-xl-3 col-lg-3 col-md-3 col-xs-6 col-sm-6 bright">
+                                    <img src="images/01.png" class="img-fluid"><br/>5<br/>Bedrooms
+                                </div>
+
+                                <div class="col-xl-3 col-lg-3 col-md-3 col-xs-6 col-sm-6 bright">
+                                    <img src="images/02.png" class="img-fluid"><br/>6<br/>Bathrooms
+                                </div>
+
+                                <div class="col-xl-3 col-lg-3 col-md-3 col-xs-6 col-sm-6 bright">
+                                    <img src="images/03.png" class="img-fluid"><br/>Heated <br> Plunge Pool & Jacuzzi
+                                </div>
+
+                                <div class="col-xl-3 col-lg-3 col-md-3 col-xs-6 col-sm-6">
+                                    <img src="images/05.png" class="img-fluid"><br/>DVD's & Cable<br/>Television
+                                </div>
+                            </div>
+                            <div class="row steam">
+                                <div class="col-xl-3 col-lg-3 col-md-3 col-xs-6 col-sm-6 bright">
+                                    <img src="images/04.png" class="img-fluid"><br/>Steam Room
+                                </div>
+
+                                <div class="col-xl-3 col-lg-3 col-md-3 col-xs-6 col-sm-6 bright">
+                                    <img src="images/07.png" class="img-fluid"><br/>Mountain Bikes
+                                </div>
+
+                                <div class="col-xl-3 col-lg-3 col-md-3 col-xs-6 col-sm-6 bright">
+                                    <img src="images/06.png" class="img-fluid"><br/>Board Games
+                                </div>
+
+                                <div class="col-xl-3 col-lg-3 col-md-3 col-xs-6 col-sm-6">
+                                    <img src="images/08.png" class="img-fluid"><br/>Library
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <img src="images/villa-106/img-15.jpg" class="img-fluid stepinimage">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-3">
+        <div class="gallery" style="display: none; margin-top: -68px;">
+          
+            <!-- <img class="gallery-item" src="images/villa-106/img-15.jpg"> -->
+            <img class="gallery-item" src="images/villa-106/img-16.jpg">
+            <img class="gallery-item" src="images/villa-106/img-3.jpg">
+            <img class="gallery-item" src="images/villa-106/img-4.jpg">
+            <img class="gallery-item" src="images/villa-106/img-6.jpg">
+            <img class="gallery-item" src="images/villa-106/img-7.jpg">
+            <img class="gallery-item" src="images/villa-106/img-8.jpg">
+            <img class="gallery-item" src="images/villa-106/img-11.jpg">
+            <img class="gallery-item" src="images/villa-106/img-12.jpg">
+            <img class="gallery-item" src="images/villa-106/img-13.jpg">
+            <img class="gallery-item" src="images/villa-106/img-14.jpg">
+            <img class="gallery-item" src="images/villa-106/img-1.jpg">
+
+        </div>
+    </div>
+
+
+    <!--rooms-->
+
+    <div class="container line text-center"></div>
+    <!-- <div class="container-fluid roomsbg cfb" style="background-color: #af973f;">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center bullet" style="border: 1px solid #212529;">
+                    <h4 class="ulheading" style="color: #212529;">DETAILS:</h4>
+                    <ul class="notelist">
+                        <li>In room Televisions are only available in the Emerald and Family room so please request beforehand if you would like one of these rooms.</li>
+
+                        <li>All rooms have double beds with an additional foldable bed for the little one.</li>
+
+                        <li>All rooms have fresh linen and other essentials like towels and toiletries.</li>
+
+                        <li>Towels would be changed on request.</li>
+
+                        <li>Room service on call is available for tea, beverages and snacks only.</li>
+
+                        <li>All rooms have attached modern bathrooms with hot water supply round the clock.</li>
+
+                        <li>Wardrobes and luggage racks are available in all rooms so feel free to unpack on your arrival.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <!-- *************************  Footer start  **************************** -->
+
+    <footer>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 footer-start">
+                <img src="images/logo.png" class="footer-logo" alt="logo">
+                <p class="para">Soul Tree comes to you from experiences deep within our hearts – And it’s all for you, the way you like it. </p>
+
+                <!-- </div> -->
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <h4>Useful Links</h4>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="about.html">
+                        <li>About</li>
+                    </a>
+                    <a href="dining.html">
+                        <li>Dining</li>
+                    </a>
+                    <a href="villa49.html">
+                        <li>Villa 49</li>
+                    </a>
+                    <a href="villa50.html">
+                        <li>Villa 50</li>
+                    </a>
+                    <a href="villa111.html">
+                        <li>Villa 111</li>
+                    </a>
+                     <a href="villa106.html">
+                        <li>Villa 106</li>
+                     </a>
+                    <a href="contact.html">
+                        <li>Contact Us</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+                <h4>Contact Us</h4>
+                <ul>
+                    <a href="mailto: soultreevilla@gmail.com">
+                        <li>soultreevilla@gmail.com</li>
+                    </a>
+                    <a href="tel:9175186783 ">
+                        <li>9175186783 </li>
+                    </a>
+                    <a href="tel: 9970456784 ">
+                        <li>9970456784 </li>
+                    </a>
+                    <li class="pt-3">Plot no. 50, Waterfall street , Near ekaant lodge,Lavasa, Maharashtra 412112</li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 col-12">
+                    <h4>Follow us</h4>
+
+                    <div class="social-icon">
+                        <a href="https://www.instagram.com/soultreevilla/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/soultreevillas/"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://wa.me/+919175186783"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+        </div>
+
+        <hr>
+
+        <div class="footer-bottom">
+            <h6>© 2021 Soul Tree Villas.</h6> &nbsp;
+            <h6>Developed by <span><a href="http://hospitalityminds.com/" target="_blank">hospitalityminds</a></span></h6>
+        </div>
+    </footer>
+    <!-- ******  Footer end  ******** -->
+
+    <script src="stylesheet.html" href="js/bootstrap.js"></script>
+
+    <script src="assets/jquery.min.js"></script>
+    <script src="assets/popper.min.js"></script>
+    <script src="assets/bootstrap.min.js"></script>
+    <script src="assets/mauGallery.min.js"></script>
+    <script src="assets/scripts.js"></script>
+
+    <script src="stylesheet.html" href="js/bootstrap.js"></script>
+</body>
+
+</html>
