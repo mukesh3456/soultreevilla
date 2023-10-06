@@ -85,6 +85,91 @@
 .my-float{
     margin-top:16px;
 }
+.dropdown:hover .dropdown-menu {
+            display: block;
+        }
+        
+        .carousel-control-prev {
+            left: 0px !important;
+        }
+        
+        .carousel-control-next {
+            right: 0px !important;
+        }
+        
+        @media only screen and (min-width: 0px) and (max-width: 320px) {
+            .carousel-control-prev {
+                left: 5px !important;
+            }
+            .carousel-control-next {
+                right: 5px !important;
+            }
+        }
+        
+        @media only screen and (min-width: 320px) and (max-width: 576px) {
+            .carousel-control-prev {
+                left: 0px !important;
+            }
+            .carousel-control-next {
+                right: 0px !important;
+            }
+        }
+        
+        @media only screen and (min-width: 576px) and (max-width: 768px) {
+            .slidercontainer {
+                padding-top: 145px;
+            }
+            .carousel-control-prev {
+                left: 10px !important;
+            }
+            .carousel-control-next {
+                right: 10px !important;
+            }
+        }
+        
+        @media only screen and (min-width: 768px) and (max-width: 992px) {
+            .carousel-control-prev {
+                left: 15px !important;
+            }
+            .carousel-control-next {
+                right: 15px !important;
+            }
+        }
+        
+        @media only screen and (min-width: 992px) and (max-width: 1200px) {
+            .slidercontainer {
+                padding-top: 145px;
+            }
+            .carousel-control-prev {
+                left: 0px !important;
+            }
+            .carousel-control-next {
+                right: 0px !important;
+            }
+        }
+
+         .float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    /*top: 30px;*/
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+  font-size:30px;
+    /*box-shadow: 2px 2px 3px #999;*/
+  z-index:100;
+}
+
+.my-float{
+    margin-top:16px;
+}
+
+
+
 
     </style>
 </head>
@@ -665,11 +750,64 @@
         </div>
     </div>
 
+    <!-- things to do -->
+   
+    <div class="container slidercontainer">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-xs-12 col-sm-12 emraldslider">
+                <div id="demo2" class="carousel slide" data-ride="carousel">
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/thingstodo/thingstodo1.jpg" alt="Soul Tree" class="img-fluid">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/thingstodo/thingstodo2.jpg" alt="Soul Tree" class="img-fluid">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/thingstodo/thingstodo3.jpg" alt="Soul Tree" class="img-fluid">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/thingstodo/thingstodo4.jpg" alt="Soul Tree" class="img-fluid">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/thingstodo/thingstodo5.jpg" alt="Soul Tree" class="img-fluid">
+                        </div>
+                    </div>
+                    <!-- </div> -->
 
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo2" data-slide="prev">
+                        <span class="carousel-control indileft"><img src="images/arrow2.png"
+                                class="img-fluid"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo2" data-slide="next">
+                        <span class="carousel-control indiright"><img src="images/arrow1.png"
+                                class="img-fluid"></span>
+                    </a>
+                </div>
+            </div>
 
+            <div class="col-xl-6 col-lg-6 col-md-6 col-xs-12 col-sm-12 containerunderline">
+                <h1 class="containerheading">Things To Do Around Lavasa</h1>
+                <p class="containertext">Lavasa is a treat for those who enjoy the outdoors and has
+                    easy access to many activities like cycling, ziplining,
+                    boating, kayaking, jet skiing and other water sports. Hike up
+                    to the highest point of Lavasa to see a spectacular sunset.
+                    This trekking trail is called the Birds Trail and starts from
+                    opposite the Hotel Ekaant lobby and goes up 5-6 kms
+                    crossing various view points.</p>
 
-
-
+                <p class="containertext">If you are in the mood for a lazy afternoon, take a picnic
+                    basket to Dhamanhol which is a 12 km drive by the lake or
+                    one of the many other scenic spots in the mountains. Grab
+                    some grub at the eateries on the lakeside promenade,
+                    indulge in a coffee at the outdoor cafe at Christ University
+                    or simply enjoy authentic Maharastrian food with cutting
+                    chai & maggi at the stalls just beyond the entry gate.</p>
+            </div>
+        </div>
+    </div>
     <!--   ***********************   Testimonail start   ************************* -->
 
     <div class="testimonial">
